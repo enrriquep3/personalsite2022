@@ -3,6 +3,8 @@ import SushiPlace from "../assets/sushiplace.jpg";
 import Youtubes from "../assets/youtubes.jpg";
 import Poltrait from "../assets/poltrait.jpg";
 import MovieSearch from "../assets/moviesearch.jpg";
+import JqueryCalculator from "../assets/JqueryCalculator.png"
+import SoccerTrivia from "../assets/Soccertrivia.png"
 
 const Work = () => {
   return (
@@ -15,15 +17,135 @@ const Work = () => {
           <p className="py-6">Check out some of my projects</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"
-        >
-          <div style={{ backgroundImage: `url(${SushiPlace})` }} 
-          className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-           
+         {/*Container */}
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+        {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${SushiPlace})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
             {/* Hover Effects */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Sushi Restaurant
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Youtubes})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className=" opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Youtube App
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+                  {/* Grid Item */}
+                  <div
+            style={{ backgroundImage: `url(${Poltrait})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className=" opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                City Weather Search
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${MovieSearch})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className=" opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Movie Search App
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+                  {/* Grid Item */}
+                  <div
+            style={{ backgroundImage: `url(${JqueryCalculator})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className=" opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Jquery Calculator App
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${SoccerTrivia})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className=" opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Soccer Trivia App
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
