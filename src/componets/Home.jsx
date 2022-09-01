@@ -1,5 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
+
 
 export const Home = () => {
   return (
@@ -18,12 +20,14 @@ export const Home = () => {
         As a Front-end developer I enjoy developing highly interactive user interfaces that enthuse customers while creating scalable, reliable solutions - but keeping consistency in design, good planning of UI and thinking how it affects the UX, and Search Engine Optimization.
         </p>
         <div>
+        <Link to="work" smooth={true} duration={500}>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover:border-[#8892b0] duration-300">
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
           </button>
+          </Link>
         </div>
       </div>
     </div>
