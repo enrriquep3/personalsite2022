@@ -31,12 +31,12 @@ const Work = () => {
                 Sushi Restaurant
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://sushiplace-v1.vercel.app/">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/enrriquep3/React-Apps/tree/main/sushiplace">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -54,12 +54,12 @@ const Work = () => {
                 Youtube App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://youtubeapp-ten.vercel.app/">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/enrriquep3/React-Apps/tree/main/youtubeapp">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -78,12 +78,12 @@ const Work = () => {
                 City Weather Search
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://enrriquep3.github.io/PROJECT-01/">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/enrriquep3/PROJECT-01">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -101,12 +101,12 @@ const Work = () => {
                 Movie Search App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://moviesearch-gamma.vercel.app/">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/enrriquep3/React-Apps/tree/main/movies">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -125,12 +125,12 @@ const Work = () => {
                 Jquery Calculator App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://enrriquep3.github.io/jQuery-Calculator/">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/enrriquep3/jQuery-Calculator">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -148,12 +148,12 @@ const Work = () => {
                 Soccer Trivia App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://first-trivia.vercel.app/">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/enrriquep3/FirstTrivia">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
